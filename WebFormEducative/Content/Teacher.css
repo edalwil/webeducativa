@@ -1,0 +1,198 @@
+﻿.header-welcome-admin {
+    display: flex;
+    border-bottom: 2px solid #e0e0e0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+    .header-welcome-admin h5 {
+        position: relative;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .header-welcome-admin img {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        margin: auto;
+        background-color: white;
+    }
+
+.no-style {
+    list-style: none;
+    padding: 0;
+}
+
+.navigate {
+    margin-top: 20px;
+}
+
+.nav-link {
+    padding-left: 18px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+    .nav-link:hover {
+        background-color: #af4732;
+        border-radius: 5px;
+    }
+
+    .nav-link a {
+        font-size: 1.5rem;
+        text-decoration: none;
+        white-space: nowrap;
+        color: white;
+    }
+
+        .nav-link a i {
+            margin-right: 1rem;
+        }
+
+.content-body {
+    margin-left: 176px;
+    width: 100%;
+}
+
+    .content-body .main-content {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+    }
+
+.header-primary {
+    background-color: #38485b;
+    display: flex;
+    position: static;
+    border-bottom: rgb(189, 188, 188) solid 1px;
+}
+
+    .header-primary ul .nav-link a {
+        font-size: 1rem;
+        color: rgb(164, 159, 159);
+    }
+
+    .header-primary .config-header {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: auto;
+        padding: 12px 20px;
+        font-size: 20px;
+        color: #ce5a44;
+        cursor:pointer;
+    }
+
+    .header-primary .config-header:hover {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: auto;
+        padding: 12px 20px;
+        font-size: 20px;
+        color: #ce5a44;
+        cursor: pointer;
+    }
+
+    .header-primary .navigate-header {
+        padding: 12px 20px;
+        font-size: 20px;
+        color: #ce5a44;
+    }
+
+    .header-primary h5 {
+        padding: 15px 20px;
+        margin: 0;
+        font-size: 20px;
+        color: white;
+    }
+
+.no-displayed {
+    display: none;
+}
+
+.config-header-options {
+    position: absolute;
+    right: 0;
+    top: 3.4rem;
+}
+
+    .config-header-options li {
+        border: 1px solid #e0e0e0;
+    }
+
+        .config-header-options li:hover {
+            background-color: #ce5a44;
+            color: white;
+        }
+
+            .config-header-options li:hover a {
+                color: white;
+            }
+
+.primary-view-admin {
+    display: flex;
+    height: 100%;
+}
+
+    .primary-view-admin nav {
+        border-right: rgb(153, 152, 152) solid 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        background-color: #CE5A44;
+        color: white;
+        position: fixed;
+        overflow: auto;
+        height: 100%;
+        width:176px;
+    }
+.table-subtle {
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+    background-color: #607895;
+    color: white;
+}
+
+    .table-subtle tbody tr:nth-child(1) {
+        background-color: #38485b;
+        border-bottom: white solid 1px;
+        border-radius: 15px;
+    }
+
+    .table-subtle thead th {
+        padding: 6px 0px;
+    }
+
+        .table-subtle thead th:hover {
+            background-color: #ce5a44;
+            color: white;
+            transition: 0.2s;
+        }
+
+    .table-subtle tbody tr td {
+        padding: 8px 0px;
+        border: white solid 1px;
+    }
+
+    .table-subtle tbody tr:hover {
+        background-color: #ce5a44;
+        color: white;
+        transition: 0.2s;
+    }
+.welcome-index-admin {
+    text-align: center;
+    height: 100%;
+}
+
+    .welcome-index-admin img {
+        width: 200px;
+        height: 200px;
+    }

@@ -1,0 +1,74 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Teacher.master.cs" Inherits="WebFormEducative.Teacher" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Dashboard Profesor</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/fonts/css/all.min.css" rel="stylesheet" />
+    <link href="~/Content/Teacher.css" rel="stylesheet" />
+</head>
+<body>
+    <form runat="server">
+        <div class="primary-view-admin">
+
+            <nav>
+                <div class="header-welcome-admin">
+                    <img src="assets/img/admin.webp" alt="Usuario Administrador" />
+                    <h5>SIGMA</h5>
+                </div>
+                <div class="navigate">
+                    <ul class="no-style">
+                        <li class="nav-link">
+                            <a href="/teacher">
+                                <i class="fa fa-home"></i>
+                                Inicio
+                            </a>
+                        </li>
+                        <asp:PlaceHolder runat="server" ID="NavigateCourseActive">
+                            <li class="nav-link">
+                                <a href="calificarstudent"><i class="fa fa-people-roof"></i>Cursos</a>
+                            </li>
+                        </asp:PlaceHolder>
+                    </ul>
+                </div>
+            </nav>
+            <div class="content-body">
+                <div class="header-primary">
+                    <a class="navigate-header"><i class="fa fa-bars"></i></a>
+                    <h5>Bienvenido Profesor : <%= ReglaNegocio.SessionCore.getSession(ReglaNegocio.SessionBody.first_name)+" "+
+                                                  ReglaNegocio.SessionCore.getSession(ReglaNegocio.SessionBody.second_name)+" "+
+                                                  ReglaNegocio.SessionCore.getSession(ReglaNegocio.SessionBody.surname)+" "+
+                                                  ReglaNegocio.SessionCore.getSession(ReglaNegocio.SessionBody.second_surname)%></h5>
+                    <a id="config-header" class="config-header"><i class="fa fa-gears"></i></a>
+                    <ul style="background-color: white" id="configurationes" class="no-style no-displayed config-header-options">
+                        <li class="nav-link">
+                            <asp:LinkButton OnClick="Unnamed_Click" runat="server">
+                            <i class="fa fa-arrow-right-from-bracket"></i>
+                            <span>Cerrar sesión</span>
+                            </asp:LinkButton>
+                        </li>
+                        <%--<li class="nav-link">
+                        <a href="#">
+                            <i class="fa fa-user-circle"></i>
+                            <span>Perfil</span>
+                        </a>
+                    </li>--%>
+                    </ul>
+                </div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+    <script>
+        let instanceConfig = document.getElementById("configurationes");
+        let instanceClickconfigheader = document.getElementById("config-header");
+        instanceClickconfigheader.addEventListener("click", () => {
+            instanceConfig.classList.toggle("no-displayed");
+        })
+    </script>
+</body>
+</html>

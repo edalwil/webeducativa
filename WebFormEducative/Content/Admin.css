@@ -1,0 +1,402 @@
+﻿.header-welcome-admin {
+    display: flex;
+    border-bottom: 2px solid #e0e0e0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+    .header-welcome-admin h5 {
+        position: relative;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .header-welcome-admin img {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        margin: auto;
+        background-color: white;
+    }
+
+.no-style {
+    list-style: none;
+    padding: 0;
+}
+
+.navigate {
+    margin-top: 20px;
+}
+
+.nav-link {
+    padding-left: 18px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+    .nav-link:hover {
+        background-color: #29384a;
+        border-radius: 5px;
+    }
+
+    .nav-link a {
+        font-size: 1.5rem;
+        text-decoration: none;
+        white-space: nowrap;
+        color: white;
+    }
+
+        .nav-link a i {
+            margin-right: 1rem;
+        }
+
+.content-body {
+    margin-left: 216px;
+    width: 100%;
+}
+
+    .content-body .main-content {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+    }
+
+.header-primary {
+    display: flex;
+    position: static;
+    border-bottom: rgb(189, 188, 188) solid 1px;
+}
+
+    .header-primary ul .nav-link a {
+        font-size: 1rem;
+        color: rgb(164, 159, 159);
+    }
+
+    .header-primary .config-header {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: auto;
+        padding: 12px 20px;
+        font-size: 20px;
+        color: #ce5a44;
+        cursor:pointer;
+    }
+
+    .header-primary .navigate-header {
+        padding: 12px 20px;
+        font-size: 20px;
+        color: #ce5a44;
+    }
+
+    .header-primary h5 {
+        padding: 15px 20px;
+        margin: 0;
+        font-size: 20px;
+        color: #38485b;
+    }
+
+.no-displayed {
+    display: none;
+}
+
+.config-header-options {
+    position: absolute;
+    right: 0;
+    top: 3.4rem;
+}
+
+    .config-header-options li {
+        border: 1px solid #e0e0e0;
+    }
+
+        .config-header-options li:hover {
+            background-color: #ce5a44;
+            color: white;
+        }
+
+            .config-header-options li:hover a {
+                color: white;
+            }
+
+.primary-view-admin {
+    display: flex;
+    height: 100%;
+}
+
+    .primary-view-admin nav {
+        border-right: rgb(153, 152, 152) solid 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        background-color: #38485b;
+        color: white;
+        position: fixed;
+        overflow: auto;
+        height: 100%;
+    }
+
+.welcome-index-admin {
+    text-align: center;
+    height: 100%;
+}
+
+    .welcome-index-admin img {
+        width: 200px;
+        height: 200px;
+    }
+
+.input-subtle {
+    padding-left: 20px;
+    font-size: 1rem;
+    width: 100%;
+    border-radius: 5px;
+    border: 0.5px solid rgb(155, 152, 152);
+    height: 35px;
+}
+
+.group-form-label {
+    margin-bottom: 8px;
+    margin-top: 8px;
+    position: relative;
+}
+
+    .group-form-label .text-place-holder {
+        z-index: 0;
+        color: #ce5a44;
+        position: absolute;
+        display: inline-block;
+        margin-left: 15px;
+        left: 0;
+        top: 6px;
+    }
+
+    .group-form-label .input-subtle{
+        background-color:rgb(0, 0, 0, 0,00);
+        z-index:1;
+    }
+
+    .group-form-label .input-subtle:focus + .text-place-holder {
+        color: #38485b;
+        background-color: white;
+        top: -8px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 10px;
+        transition: 0.2s;
+    }
+
+.card-subtle {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-subtle-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-subtle-body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card-subtle-footer {
+    width: 100%;
+}
+
+    .card-subtle-footer button {
+        font-size: 12px;
+    }
+
+        .card-subtle-footer button:hover {
+            background-color: #ce5a44;
+            color: white;
+            transition: 0.2s;
+        }
+
+.position-right {
+    text-align: right;
+}
+
+.position-center {
+    text-align: center;
+}
+
+.btn-subtle {
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.pagerTest table tbody tr {
+    text-align: center;
+    border: none;
+    border-radius: 50% !important;
+}
+.pagerTest .td {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+
+    .pagerTest table tbody tr td {
+        padding-left: .4rem;
+        padding-right: .4rem;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+.table-subtle {
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+    background-color: #607895;
+    color: white;
+}
+
+    .table-subtle tbody tr:nth-child(1) {
+        background-color: #38485b;
+        border-bottom: white solid 1px;
+        border-radius: 15px;
+    }
+
+        .table-subtle thead th {
+            padding: 6px 0px;
+        }
+
+            .table-subtle thead th:hover {
+                background-color: #ce5a44;
+                color: white;
+                transition: 0.2s;
+            }
+
+    .table-subtle tbody tr td {
+        padding: 8px 0px;
+        border: white solid 1px;
+    }
+
+    .table-subtle tbody tr:hover {
+        background-color: #ce5a44;
+        color: white;
+        transition: 0.2s;
+    }
+
+.alertify-subtle {
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: auto;
+    transition: 1s;
+    opacity: 1;
+}
+
+    .alertify-subtle .alertify-subtle-content {
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        background-color: #38485b;
+        color: white;
+        position: relative;
+        margin-top: 20px;
+        display: inline-block;
+        padding-top: 15px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .alertify-subtle .error {
+        color: #ce5a44;
+    }
+
+    .alertify-subtle .success {
+        color: rgb(41, 167, 41);
+    }
+
+    .alertify-subtle .alertify-subtle-body {
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+    }
+
+    .alertify-subtle .alertify-subtle-type {
+        font-size: 35px;
+        position: absolute;
+        top: 30%;
+        bottom: 0;
+        left: 0;
+        margin-left: 15px;
+    }
+
+        .alertify-subtle .alertify-subtle-type i {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+.modal-subtle {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.449);
+}
+
+    .modal-subtle .modal-subtle-content {
+        width: 400px;
+        position: relative;
+        margin: 10% auto;
+        padding-bottom: 5px;
+        border-radius: 10px;
+        background: #fff;
+    }
+
+.modal-subtle-content .modal-subtle-header {
+    padding-top: 20px;
+    padding-bottom: 8px;
+    background-color: #38485b;
+    color: white;
+}
+
+    .modal-subtle-content .modal-subtle-header h5 {
+        font-size: 25px;
+    }
+
+.modal-subtle-content .modal-subtle-body {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.modal-subtle-content .modal-subtle-footer button:hover {
+    background-color: #ce5a44;
+    color: white;
+    transition: 0.2s;
+}
+
+.btn-hover-especial:hover {
+    background-color: #ce5a44;
+    color: white;
+    transition: 0.2s;
+}
+
+.not-displayed {
+    opacity: 0;
+}
+.aparence-onbody{
+    display:none
+}
