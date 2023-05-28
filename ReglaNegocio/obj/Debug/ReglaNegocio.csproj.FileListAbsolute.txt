@@ -9,3 +9,10 @@ C:\Users\Patrick Vidal\Desktop\WebAsp\WebFormEducative\ReglaNegocio\obj\Debug\Re
 C:\Users\Patrick Vidal\Desktop\WebAsp\WebFormEducative\ReglaNegocio\obj\Debug\ReglaNegocio.pdb
 C:\Users\eawil\OneDrive\Desktop\Sigma.v1.0 (1)\WebFormEducative\ReglaNegocio\obj\Debug\ReglaNegocio.dll
 C:\Users\eawil\OneDrive\Desktop\Sigma.v1.0 (1)\WebFormEducative\ReglaNegocio\obj\Debug\ReglaNegocio.pdb
+C:\Users\eawil\OneDrive\Desktop\Sigma.v1.0 (1)\WebFormEducative\ReglaNegocio\bin\Debug\ReglaNegocio.dll
+C:\Users\eawil\OneDrive\Desktop\Sigma.v1.0 (1)\WebFormEducative\ReglaNegocio\bin\Debug\ReglaNegocio.pdb
+C:\Users\eawil\OneDrive\Desktop\Sigma.v1.0 (1)\WebFormEducative\ReglaNegocio\bin\Debug\CapaDatos.dll
+C:\Users\eawil\OneDrive\Desktop\Sigma.v1.0 (1)\WebFormEducative\ReglaNegocio\bin\Debug\CapaDatos.pdb
+C:\Users\eawil\OneDrive\Desktop\Sigma.v1.0 (1)\WebFormEducative\ReglaNegocio\obj\Debug\ReglaNegocio.csproj.AssemblyReference.cache
+C:\Users\eawil\OneDrive\Desktop\Sigma.v1.0 (1)\WebFormEducative\ReglaNegocio\obj\Debug\ReglaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\eawil\OneDrive\Desktop\Sigma.v1.0 (1)\WebFormEducative\ReglaNegocio\obj\Debug\ReglaNegocio.csproj.CopyComplete
